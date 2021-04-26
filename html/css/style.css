@@ -1,0 +1,67 @@
+body {
+  background: #000000;
+  font-family: Helvetica, san-serif;
+  text-rendering: optimizeSpeed;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  padding: 10em;
+}
+
+@font-face {
+  font-family: STCAIYUN;
+  src: url(./STCAIYUN.TTF)
+}
+
+
+.head{
+  margin-top:-180px; 
+  overflow:hidden;
+}
+.head-box{
+  border-radius: 20px;
+  width:80%;
+  height:100px;
+  background:rgb(7, 7, 7);
+  /* margin-bottom: 60px; */
+
+}
+
+@-webkit-keyframes dy{
+  from { width: 0;}
+}
+@keyframes dy{
+  from { width: 0;}
+}
+.head h1{
+  font-family: 'STCAIYUN', serif; 
+  font-size:55px; 
+  color:#ffffff; 
+  padding-top:22px;
+  width:100%;
+  white-space:nowrap;
+  overflow:hidden;
+  -webkit-animation: dy 3s  ;
+  animation: dy 3s steps(50, end) ;
+}
+.head h2{
+  padding-top:100px;
+  margin:0;
+  font-size:85px;
+  color: rgb(245, 245, 245);
+  text-shadow: 0 0 .1em, 0 0 .3em;
+  padding-bottom:190px;
+}
+.go {
+
+  /* padding: .3em .8em; */
+  width: 30%;
+  height: 50px;
+  border: 1px solid rgba(30, 255, 0, 0.2);
+  border-radius: 15px;
+  color: rgb(255, 255, 255);
+  font-size: 200%;
+  line-height: 1.5;
+  background:rgb(0, 0, 0);
+  text-shadow: 0 0 .1em, 0 0 .3em;
+}
