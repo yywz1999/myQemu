@@ -26,7 +26,7 @@ done
 echo -e "version: \"3\"" > $DOCKER_CONFIG_FILE
 echo -e "services:" >> $DOCKER_CONFIG_FILE
 echo -e "    qemu-docker:" >> $DOCKER_CONFIG_FILE
-echo -e "        image: w22baka/w22_qemu_docker:v1.1" >> $DOCKER_CONFIG_FILE
+echo -e "        image: w22baka/w22_qemu_docker:v2.0" >> $DOCKER_CONFIG_FILE
 echo -e "        tty: true" >> $DOCKER_CONFIG_FILE
 echo -e "        command: /root/start.sh" >> $DOCKER_CONFIG_FILE
 echo -e "        ports:" >> $DOCKER_CONFIG_FILE
