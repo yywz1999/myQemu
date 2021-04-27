@@ -11,7 +11,7 @@ echo -e "\t5000:5000(Web_server)"
 echo -e "\t22222:22(qemu-system_ssh)"
 echo "============================================="
 
-while True
+while :
 do
     read -p "Enter port : " port  
     if [ $port == "q" ]  
